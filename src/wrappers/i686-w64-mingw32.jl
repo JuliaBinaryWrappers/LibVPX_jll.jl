@@ -7,7 +7,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_file_product(
         libvpx,
-        "bin/libvpx.a",
+        "bin\\libvpx.a",
     )
 
     JLLWrappers.@generate_init_footer()
